@@ -30,6 +30,10 @@ This do we give some cookie to the user browser and some time get some secure co
 
 If we go to /insta or /login the res will check that dose our server can handle to many res or not.This is called middleware, this help to check in all the req in medule. Like(Check if user is logged in) - we can use multiple wares LIKE (Check is user is admin).
 
+# Some middleware plugins are pre, post
+
+pre is like do somthing defore data save, post is data just save now do somthing.
+
 # ✨How to use middleware ?
 
 We have 4 paramiters LIKE(err, res, req, next) This next is the middleware
@@ -63,3 +67,25 @@ Promise.resolve(requestHandler(res, req, next)).catch((err) => next(err));
 # ✨When use app.use ?
 
 When we used middleware (next), then we use app.use, and the app is a express powered.
+
+# ✨What is higher oder function ?
+
+Those function who can accept function as paramiter and also return also
+called Higher order function.
+
+# npm i mongoose-aggregate-paginate-v2
+
+This package allow you to write aggerigation query
+
+# What is Aggergation pipeline ?
+
+# What is bcrypt.js Do ?
+
+It's an laibary that help to hash your password
+make password incrypt and dcrypt,
+This is based token.
+
+# What is JWT (Json web token) ?
+
+This is based on tokens. it's a laibary as well.
+if anyone have this token JWT will send data to them.
