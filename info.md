@@ -89,3 +89,15 @@ This is based token.
 
 This is based on tokens. it's a laibary as well.
 if anyone have this token JWT will send data to them.
+
+# DATE 11-08-2025 Store File or handle files✅
+
+# What is multer ?
+
+multer is a laibary that help to get files form user and send to the service like cloudinary.
+
+# What is fs ?
+
+help to file read write remove etc. scynk or async,
+for remove file or delete we used unlink (term-unlink).
+
