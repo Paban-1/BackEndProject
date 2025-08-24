@@ -15,7 +15,8 @@ const uploadOncloudinary = async (localFilePath) => {
       resource_type: "auto",
     });
     //'file has been uploaded succesfully
-    console.log("file is uploaded on cloudinary", responce.url);
+    // console.log("file is uploaded on cloudinary", responce.url);
+    fs.unlinkSync(localFilePath)
     return responce;
   } catch (error) {
     fs.unlinkSync(localFilePath); // remove the localy saved tempo file as the upload opration got faild
